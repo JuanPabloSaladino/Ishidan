@@ -1,0 +1,265 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    border-top: 1px solid #ff6600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+footer div img{
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.5em;
+    height: 25px;
+    width: 25px;
+}
+
+.contenedor-texto-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedor-texto-footer h4{
+    color: #8f8f8f;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+h5{
+    color:#777777;
+}
+
+p{
+    color:#646464;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+label{
+    color:#646464;
+    font-size: 1em;
+    font-weight: 550;
+}
+
+input{
+    background-color: #eeeeee;
+    border: 1px solid #bbbaba;
+    height: 25px;
+  }
+
+nav{
+    background-color: #ff6600;
+    height: 1.5em;
+    padding-left: 2.2em;   
+    padding-top: 0.4em;
+}
+
+nav a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px 16px;
+}
+
+.contenedor-bienvenido{
+    margin:2em;
+    width:30%;
+}
+
+.contenedor-campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.contenedor-formulario{
+    background-image: linear-gradient(#f0f0f0, #fff, #fff);
+    border: 1px solid #bbbaba;
+    margin-top: 15px;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.contenedor-log-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2em;
+    width:20%;
+}
+
+.contenedor-pedido{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    width: 100%;
+}
+
+.contenedor-pedido p{
+    padding-top: 0.6em;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.contenedor-texto-naranja{
+    border-bottom: 1px solid #bbbaba;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.nav-top{
+    background-color: #1e1e1e;
+    border-top: 0.3em solid #ff6600;
+}
+
+.logo-nav{
+    margin-left: 1.5em;
+}
+
+.texto-naranja{
+    color: #ff6600;
+    font-size: 1.3em;
+}
+
+.texto-subrayado-naranja{
+    color: #ff6600;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    background-image: linear-gradient(#969696, #333333, #1e1e1e);
+}
+
+.contenedor-formulario img{
+    display: block;
+    margin: auto;
+}
+
+#contenedor-main-superior{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenedor-main-inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 2em;
+}
+
+#flecha-derecha{
+    transform: rotate(180deg);
+}
+
+.contenedor-imagen-inferior{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-imagen-inferior div{
+    background-color: #363636;
+}
+
+.contenedor-imagen-inferior img{
+    border: 1px solid #363636;
+    height: 8em;
+    width: auto;
+}
+
+.contenedor-imagen-inferior p{
+    color: #e7e7e7;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+/**/
+.contenedor-derecha{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 40%;
+}
+
+.contenedor-sugerencias{
+    margin-top: 2em;
+}
+
+.contenedor-resumen-pedido{
+    border: 1px solid #bbbaba;
+    height: 10em;
+    margin-top: 1em;
+    width: 25em;
+}
+
+.sugerencias{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    width: 30em;
+}
+
+.contenedor-subtitulo-nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: baseline;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.contenedor-subtitulo-nav a{
+    color: #ff6600;    
+    font-size: small;
+}
+
+.contenedor-subtitulo-nav p{
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/**/
+#titulo-log-in{
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 1em;
+}
+
+#titulo-log-in h2{
+    margin-right: 0.5em;
+}
+
+#titulo-log-in h5{
+    font-size: 1em;
+}
