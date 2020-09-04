@@ -10,6 +10,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     margin-top: 3em;
+    margin-bottom: 3em;
     padding-left: 10em;
     padding-right: 10em;
 }
@@ -216,7 +217,7 @@ nav a:hover {
 
 .contenedor-resumen-pedido{
     border: 1px solid #bbbaba;
-    height: 10em;
+    height: 11em;
     margin-top: 1em;
     width: 25em;
 }
@@ -263,3 +264,115 @@ nav a:hover {
 #titulo-log-in h5{
     font-size: 1em;
 }
+
+/**/
+.contenedor-producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.contenedor-producto:hover{
+    background-color: #eeeeee;
+}
+
+.contenedor-producto .acordeon-derecha{
+    margin-left: 20px;
+}
+
+.precio{
+    margin-top: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.precio h5{
+    margin-right: 10px;
+}
+
+.acordeon-derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.acordeon-izquierda h5{
+    margin-bottom: 10px;
+}
+
+.acordeon-izquierda p{
+    color: #1a1a1a9f;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.texto-negrita{
+    color: #4e4e4e;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.texto-simple{
+    color: #00000077;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.encabezado-pedido{
+    background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(208,208,208,1) 25%, rgba(236,236,236,1) 50%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    height: 25%;
+}
+
+#accordion{
+    margin-top: 1em;
+}
+
+.datos-pedido{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    justify-content: space-around;
+}
+
+.confirmacion-pedido{
+    /*background-color: #f3f3f3;*/
+    text-align: center;
+    border-top: 1px solid #bbbaba;
+}
+
+.confirmacion-pedido h4{
+    color: #ff6600;
+    font-weight: normal;
+    margin: 5px;
+}
+
+.contenedor-total{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.contenedor-campo-total{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.contenedor-campo-total input{
+    width: 50px;
+}
+
+.contenedor-campo-total label{
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+#boton-confirmar{
+    margin-top: 35px;
+}
+    
+/**/
